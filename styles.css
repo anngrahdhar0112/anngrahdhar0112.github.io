@@ -1,20 +1,21 @@
-/* Basic Reset */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body, h1, h2, h3, p, ul, li, nav, section, footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
     color: #333;
     background: #f4f4f4;
-   padding: 20px;
+    padding: 20px;
+    font-size: 16px;
 }
 
 header {
-    background: #333;
+    background: #28527a;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -22,7 +23,7 @@ header {
 
 nav ul {
     list-style-type: none;
-    background: #444;
+    background: #8ac4d0;
     text-align: center;
     padding: 10px 0;
 }
@@ -36,6 +37,11 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #17252a;
 }
 
 .section {
@@ -43,11 +49,12 @@ nav ul li a {
     margin: 20px 0;
     padding: 20px;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 footer {
     text-align: center;
-    background: #333;
+    background: #17252a;
     color: white;
     padding: 10px 0;
     position: fixed;
@@ -55,12 +62,8 @@ footer {
     width: 100%;
 }
 
-/* Adding media queries for responsiveness */
+/* Responsive Design */
 @media (max-width: 768px) {
-    nav ul {
-        padding-top: 0;
-    }
-
     nav ul li {
         display: block;
         margin: 10px 0;
