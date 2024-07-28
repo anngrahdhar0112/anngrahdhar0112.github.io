@@ -13,7 +13,7 @@ header {
 .intro {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
@@ -51,26 +51,4 @@ header {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-}
-
-section {
-    padding: 2rem;
-    margin: 2rem auto;
-    max-width: 800px;
-}
-
-section h2 {
-    margin-top: 0;
-}
-
-ul {
-    list-style: disc;
-    margin-left: 1.5rem;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
 }
