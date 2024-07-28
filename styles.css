@@ -95,12 +95,7 @@ section#skills {
     margin-bottom: 0.5rem;
 }
 
-.skills-column ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.skills-column li {
+.skills-column p {
     font-size: 1.1rem;
-    margin: 0.5rem 0;
+    margin: 0;
 }
