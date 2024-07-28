@@ -55,3 +55,47 @@ header {
     height: auto;
     border-radius: 10px;
 }
+
+section#skills {
+    background: #f9f9f9;
+    padding: 2rem 0;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#skills p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.skills-column {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.skills-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills-column p {
+    font-size: 1.1rem;
+    margin: 0;
+}
